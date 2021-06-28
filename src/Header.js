@@ -30,6 +30,7 @@ const Header = ({ skills, onSkillsChange, location, onLocationChange }) => {
           css={{
             marginRight: "1.5em",
             position: "relative",
+            cursor: "pointer",
 
             "&:before": {
               content: `''`,
@@ -66,7 +67,6 @@ const Header = ({ skills, onSkillsChange, location, onLocationChange }) => {
               borderRadius: "50%",
               backgroundColor: "#3483CC",
               opacity: 0,
-              cursor: "pointer",
             }}
           >
             <img src={photoIcon} alt="" />

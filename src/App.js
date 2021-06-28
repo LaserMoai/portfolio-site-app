@@ -35,8 +35,6 @@ function App() {
   return (
     <div
       css={{
-        fontFamily: `'Roboto', sans-serif`,
-
         h2: {
           fontSize: "1.5em",
           fontWeight: 500,
